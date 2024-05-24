@@ -1,28 +1,25 @@
-# frontend
+# 备忘录
 
-This template should help get you started developing with Vue 3 in Vite.
+[前端部分] 一个支持富文本的多人协同编辑的备忘录(笔记本)。
 
-## Recommended IDE Setup
+## 项目组成
+- Framework: Vue3
+- State Management: Pinia
+- UI Component: Element Plus
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 项目初始化
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 编译并为开发运行
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 编译并运行生产版本
 
 ```sh
 npm run build
