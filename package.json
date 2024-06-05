@@ -19,6 +19,7 @@
     "axois": "0.0.1-security",
     "element-plus": "^2.7.2",
     "vue": "^3.4.21",
+    "vue-router": "4",
     "y-websocket": "^2.0.3",
     "yjs": "^13.6.15"
   },

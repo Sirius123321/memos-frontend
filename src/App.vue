@@ -4,19 +4,19 @@ import RichEditor from "@/components/RichEditor.vue";
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
+  <div id="app">
+    <el-menu default-active="1" class="el-menu-demo" mode="horizontal">
+      <el-menu-item index="1">
+        <router-link to="/">Home</router-link>
+      </el-menu-item>
+      <el-menu-item index="2">
+        <router-link to="/about">About</router-link>
+      </el-menu-item>
+    </el-menu>
+    <router-view/>
+  </div>
   <main>
-<!--    <TheWelcome />-->
-    <RichEditor />
-
-
+    <RichEditor/>
   </main>
 </template>
 
