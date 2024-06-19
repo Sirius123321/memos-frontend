@@ -1,23 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import RichEditor from "@/components/RichEditor.vue";
+import RichEditor from "@/components/TiptapYjs.vue";
 </script>
 
 <template>
-  <div id="app">
-    <el-menu default-active="1" class="el-menu-demo" mode="horizontal">
-      <el-menu-item index="1">
-        <router-link to="/">Home</router-link>
-      </el-menu-item>
-      <el-menu-item index="2">
-        <router-link to="/about">About</router-link>
-      </el-menu-item>
-    </el-menu>
     <router-view/>
-  </div>
-  <main>
-    <RichEditor/>
-  </main>
 </template>
 
 <style scoped>
